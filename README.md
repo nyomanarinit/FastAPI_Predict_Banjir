@@ -1,8 +1,8 @@
-#🌧️🌊Banjir Jakarta Flood Prediction API
+# 🌧️🌊Banjir Jakarta Flood Prediction API
 
 Sebuah project berbasis FastAPI yang dapat memprediksi kemungkinan terjadinya banjir di Jakarta, berdasarkan input data lingkungan seperti kelembapan, curah hujan, sinar matahari, kategori tanah, dan bulan.
 
-## 📁 Struktur File FastAPI
+## 📂 Struktur File FastAPI
 
 ```
 fastapi_flood/
@@ -21,7 +21,7 @@ fastapi_flood/
 - Hasil prediksi berupa: `Aman Banjir` atau `Potensi Banjir`  
 - Ringan, cepat, dan siap diintegrasikan ke aplikasi atau dashboard analisis  
 
-## ⚙️ Cara Menjalankan
+## ▶️ Cara Menjalankan
 
 ### 1. Clone Repositori
 
@@ -52,9 +52,9 @@ uvicorn main:app --reload
 ### 5. Akses Swagger UI
 
 Buka browser ke:  
-👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+➡️ [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-## 🧪 Contoh 1 JSON Input
+## 📨 Contoh 1 JSON Input
 
 ```json
 {
@@ -66,7 +66,7 @@ Buka browser ke:
 }
 ```
 
-## ✅ Contoh Output 1
+## 📩 Contoh Output 1
 
 ```json
 {
@@ -80,7 +80,7 @@ Buka browser ke:
   "prediksi": "Potensi Banjir"
 }
 ```
-## 🧪 Contoh 2 JSON Input
+## 📨 Contoh 2 JSON Input
 
 ```json
 {
@@ -92,7 +92,7 @@ Buka browser ke:
 }
 ```
 
-## ✅ Contoh Output 2
+## 📩 Contoh Output 2
 
 ```json
 {
